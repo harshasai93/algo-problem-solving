@@ -1,4 +1,5 @@
-public class Solution extends VersionControl {
+package LeetCode.MayChallenge.Day1;
+public class FirstBadVersion{
     public int firstBadVersion(int n) {
 
         // first bad version is 1 when only 1 version exists
@@ -28,5 +29,10 @@ public class Solution extends VersionControl {
         }
 
         return firstBad;
+    }
+
+    private boolean isBadVersion(int m) {
+
+        return true;
     }
 }
